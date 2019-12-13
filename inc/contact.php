@@ -4,23 +4,23 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <demo@domain.com>';
+$from = 'Contacto ILLUTIO form <ventas@illut.io>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <demo@domain.com>'; // Add Your emnail here
+$sendTo = 'Demo contact form <info@illut.io>'; // Add Your email here
 
 // subject of the email
-$subject = 'New message from contact form';
+$subject = 'Contacto desde sitio illut.io';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('sub' => 'Subject', 'email' => 'Email', 'message' => 'Message'); 
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = 'Se ha enviado su correo correctamente. Agradecemos su contacto y estaremos en contacto pronto.!';
 
 // If something goes wrong, we will display this message.
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$errorMessage = 'Se ha ocasionado un error al intentar enviar sus datos.Por favor intente más tarde.';
 
 /*
  *  LET'S DO THE SENDING
