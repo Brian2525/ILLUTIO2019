@@ -183,13 +183,13 @@ $(function() {
         zoom: 14,
         styles: mapStyle,
         scrollwheel: false,
-        center: new google.maps.LatLng(40.72, -74)
+        center: new google.maps.LatLng(37.78, -122.3989)
     });
 
     // Add a marker
     var marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(40.72, -74)
+        position: new google.maps.LatLng(37.78, -122.3989)
     });
 
     // Add a Snazzy Info Window to the marker
