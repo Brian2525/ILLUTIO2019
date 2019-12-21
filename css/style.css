@@ -3069,7 +3069,8 @@ footer.top-border {border-top:1px solid rgba(0,0,0,0.06);}
 .blog-details-fg .blog-fg-data .post-data h4 {font-size: 28px;padding: 30px 0 25px;}
 .blog-details-fg .blog-fg-data .blog-img-gallery {padding: 50px 0 80px;}
 .blog-details-fg .blog-fg-data .blog-img-gallery img {width: 100%;}
-.blog-details-fg .blog-fg-data .video-banner-blog {
+.blog-details-fg .blog-fg-data .
+-banner-blog {
   background: url(../images/blog/bg.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
